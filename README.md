@@ -33,3 +33,22 @@ Anaconda environment for script execution and package management
 5. Documentation:
      Maintain comprehensive documentation covering all aspects of the automated process, including setup instructions, code documentation, and user guides.
 Document any updates, changes, or issues encountered during the process for future reference.
+
+
+# To run the Script:
+
+Open all the python Script on Pythhon IDE (Spyder), open the Anaconda Prompt to run the code
+ 
+ 
+on the prompt mention five arguments like 
+1) python file name with extension 
+2) output directory 
+3) Location of brands mapping excel file 
+4) Location of Map_api excel file
+5) Location of map file 
+6) Location last month files folder 
+
+for exapmle : Keeping all the python files in "D:\HVAC\COMBINING TEST\SCRIPT" and restof files and folder are in "D:\HVAC\Automate HVAC"
+
+so on the commad prompt: 
+python Automate__API.py "D:\HVAC\Automate HVAC" "D:\HVAC\Automate HVAC\brands-mapping.xlsx" "D:\HVAC\Automate HVAC\Map-Api.xlsx" "D:\HVAC\Automate HVAC\map.xlsx" "D:\HVAC\Automate HVAC\LAST MONTH\EXCEL"
